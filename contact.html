@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Meu Portfólio. Venha conhecer!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="assets/img/programmer.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <h2>PORTFÓLIO</h2>
+            <nav class="cabecalho-menu">
+                <a href="index.html" class="cabecalho-menu-item">HOME</a>
+                <a href="about.html" class="cabecalho-menu-item">SOBRE</a>
+                <a href="experiences.html" class="cabecalho-menu-item">EXPERIÊNCIAS</a>
+                <a href="contact.html" class="cabecalho-menu-item">CONTATO</a>
+                <a href="projects.html" class="cabecalho-menu-item">PROJETOS</a>
+            </nav> <!-- cabecalho-menu-->
+        </header> <!-- cabecalho -->
+
+        <main class="principal-contact">
+            <section class="formulario">
+                <header class="formulario-cabecalho">
+                    <h1 class="formulario-title">CONTATO</h1>
+                </header> <!-- formulario-cabecalho-->
+                <form method="get" action="mailto:pireshugo737@gmail.com" class="form">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" class="form-control" required placeholder="Digite seu nome" >
+
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" class="form-control" required placeholder="Digite seu e-mail">
+
+                    <label for="assunto">Assunto: </label>
+                    <input type="text" name="assunto" class="form-control" required placeholder="Assunto">
+
+                    <label for="message">Mensagem: </label>
+                    <textarea name="mesage" class="message" cols="30" rows="10" required placeholder="Mensagem"></textarea>
+
+                    <button type="submit" class="button">Enviar</button>
+                </form> <!-- form -->
+            </section><!-- formulario -->
+            <img src="./assets/img/cttIcon.png" width="300px" height="300px" alt="">
+        </main><!-- principal-contact -->
+
+        <footer class="rodape">
+            <p class="rodape-p">Produzido por <em>Vitor Hugo Pires dos Santos</em></p>
+            <p class="rodape-p">Copyright &copy; 2022</p>
+            <p>Todos os direitos reservados.</p>
+        </footer><!-- rodape -->
+</body>
+</html>
